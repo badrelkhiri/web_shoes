@@ -81,8 +81,7 @@ export const services = [
   {
     imgURL: shieldTick,
     label: "Secure Payment",
-    subtext:
-      "Experience worry-free transactions with our secure payment options.",
+    subtext: "Experience worry-free transactions with our secure payment options.",
   },
   {
     imgURL: support,
@@ -140,7 +139,7 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  { src: facebook, alt: "facebook logo", href: "https://www.facebook.com/" },
+  { src: twitter, alt: "twitter logo", href: "https://twitter.com/home" },
+  { src: instagram, alt: "instagram logo", href: "https://www.instagram.com/" },
 ];
