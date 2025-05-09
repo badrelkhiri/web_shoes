@@ -1,5 +1,4 @@
 import Button from "../components/Button";
-
 const Subscribe = () => {
   return (
     <section
@@ -10,7 +9,13 @@ const Subscribe = () => {
         Sign Up for <span className="text-coral-red ">Updates</span> Newsletter
       </h1>
       <div className="lg:max-w-[40%] justify-between flex items-center max-sm:flex-col w-full gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full">
-        <input type="text" className=" border-coral-red outline-none" placeholder="subscribe@sheosy.ma" name="" id="" />
+        <input
+          type="text"
+          className="input border-coral-red flex-1"
+          placeholder="subscribe@shoesy.ma"
+          name=""
+          id=""
+        />
         <div className="flex max-sm:justify-end items-center max-sm:w-full">
           <Button label="Sign Up" fullWidth />
         </div>
@@ -18,5 +23,4 @@ const Subscribe = () => {
     </section>
   );
 };
-
 export default Subscribe;

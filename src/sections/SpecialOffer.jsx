@@ -1,10 +1,9 @@
 import Button from "../components/Button";
 import { offer } from "../assets/images";
 import { arrowRight } from "../assets/icons";
-
 const SpecialOffer = () => {
   return (
-    <section className="flex justify-wrap  max-xl:flex-col-reverse gap-10 w-full max-container">
+    <section className="flex flex-wrap justify-center items-center max-xl:flex-col-reverse gap-10 w-full max-container">
       <div className="flex-1 flex ">
         <img src={offer} alt="offer" className="object-contain" />
       </div>
@@ -26,11 +25,15 @@ const SpecialOffer = () => {
         </div>
         <div className="flex gap-6">
           <Button label="View details" iconUrl={arrowRight} />
-          <Button label="View details" borderColor = "border-slate-gray" backgroundColor="bg-white" textColor="text-black" />
+          <Button
+            label="View details"
+            borderColor="border-slate-gray"
+            backgroundColor="bg-white"
+            textColor="text-black"
+          />
         </div>
       </div>
     </section>
   );
 };
-
 export default SpecialOffer;

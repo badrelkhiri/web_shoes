@@ -5,8 +5,10 @@ const ServicesCard = ({ imgURL, label, subtext }) => {
         <div className="h-11 w-11 flex justify-center items-center rounded-full bg-coral-red">
           <img src={imgURL} alt={label} />
         </div>
-          <h2 className="text-2xl font-semibold">{label}</h2>
-          <p className="break-words leading-normal font-montserrat text-slate-gray text-lg">{subtext}</p>
+        <h2 className="text-2xl font-semibold">{label}</h2>
+        <p className="break-words leading-normal font-montserrat text-slate-gray text-lg">
+          {subtext}
+        </p>
       </div>
     </div>
   );

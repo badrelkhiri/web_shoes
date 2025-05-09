@@ -1,7 +1,5 @@
 import Button from "../components/Button";
 import { shoe8 } from "../assets/images";
-
-
 const SuperQuality = () => {
   return (
     <section
@@ -21,10 +19,9 @@ const SuperQuality = () => {
           is designed to elevate your experience, providing you with unmatched
           quality, innovation, and a touch of elegance.
         </p>
-
-          <p className="mt-6 mb-11 text-slate-gray info-text lg:max-w-lg">
-            Our dedication to detail and excellence ensures your satisfaction
-          </p>
+        <p className="mt-6 mb-11 text-slate-gray info-text lg:max-w-lg">
+          Our dedication to detail and excellence ensures your satisfaction
+        </p>
         <Button label="View details" />
       </div>
       <div className="flex-1 flex justify-center items-center">
